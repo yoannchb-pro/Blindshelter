@@ -1,0 +1,42 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* No outline */
+textarea:focus, input:focus{
+    outline: none;
+  }
+  
+  /* SCROLL BAR */
+  /* width */
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+    
+  /* Track */
+  ::-webkit-scrollbar-track {
+      background: #0000001f; 
+  }
+     
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+   border-radius: 1rem;
+   background: rgb(220, 38, 38); 
+  }
+    
+    /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+   background: rgb(185, 28, 28); 
+  }
+  
+@font-face {
+    font-family: "blindshelter";
+    src: url("./fonts/blindshelter.otf");
+}
+
+@font-face {
+    font-family: "braille";
+    src: url("./fonts/braille3d.ttf");
+}
